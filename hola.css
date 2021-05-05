@@ -1,0 +1,171 @@
+.title::first-letter{
+    color: red;
+    font-size: 3em;
+}
+.text::first-line{
+    font-size: 3em;
+    color: yellow;
+}
+.link:link{
+    color: brown;
+}
+.link:visited{
+    color: darkblue;
+}
+.link:active{
+    color: darkcyan;
+    background: darkgreen;
+}
+.button{
+    text-emphasis: none;
+    display: inline-block;
+    background: red; 
+    padding:.5em;
+    border-radius: 10px;   
+    color: blueviolet;  
+}
+.title:hover{
+    color: darkgreen;
+}
+.button:active{
+transform: scale(.9);
+}
+.button:hover{
+    color: red;
+    background: blanchedalmond;
+    border: 1px solid red;
+    border-radius: 9px;
+}
+.input:focus{
+    background: green;
+}
+.menu{
+    background: lightskyblue;
+    display: block;
+    padding: 1em;
+   text-emphasis: none;
+   text-align: center;
+}
+.input:enabled{
+    background: red;
+}
+.input:disabled{
+    background:yellow;
+    border:none;
+}
+.input, 
+.label{
+  display: block;
+}
+.input:checked *  label{
+    font-size: 2em; 
+}
+.input:in-range{
+    background: blue;
+}
+.input:out-of-range{
+    background: coral;
+}
+.input:optional{
+    background:black;
+}
+.input:required{
+    background: purple;
+} 
+.input:valid{
+ background: cadetblue;   
+} 
+.input:invalid{
+    background: cornflowerblue;
+}
+:root {
+    --color: blue;
+    --border: 3px solid yellow
+}
+.paragraph{
+    color: var(--color)
+}
+.article{
+    --color:green;
+}   
+.paragraph:last-child {
+background: blue;
+}
+.paragraph{
+    padding:.5em;
+    background: lightskyblue;
+}
+.container:first-child{
+    background: red; 
+}
+.paragraph:first-child{
+    background: red;
+} 
+.check:checked * .box{
+    --color:blue
+}
+.box{
+  width: 100px; 
+  height: 100px;
+  background: var(--color);
+  border: var(--border);
+}
+[class^="bg-"]{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 30%;
+    height: 150px;
+    border:1px solid red
+}
+.bg-color{
+    background-color:red;
+}
+.bg-image{
+    background-image: url(german/logo.gif);
+}
+.bg-size{
+    background-image: url(german/bonito.png);
+    background-size: cover;
+}
+.bg-repeat {
+        background-image: url(german/bonito.png);
+        background-size: 40%;
+        background-repeat:repeat-y ;
+}
+.bg-position{
+    background-image: url(german/bonito.png);
+    background-size: 20%;
+    background-repeat:repeat-y ;
+    background-position:50px 50px ;
+}
+.bg-origin{
+    border: 12px dotted red;
+    padding: 25px;
+    background-image: url(Hosting_files/litespeed-logo-83adaa186d.svg);
+    background-size: contain;
+    background-repeat:repeat-y ;
+    background: darkblue;
+    background-origin: border-box;
+}
+.bg-clip{
+    border: 12px dotted red;
+    background-color: blue;
+    background-clip: content-box;
+    padding: 25px;
+}
+.bg-attachment{
+    width: 111%;
+    height:300px ;
+    background-image:url(icon.svg) ;
+    background-size:scroll;
+    background-attachment:cover;
+}
+.bg-multiple{
+  background:black ;
+    background-image:
+                url(icon.svg) ; ,
+                      :url(icon.svg) ;
+background-size:30%,cover;
+background-repeat:no-repeat ;
+} 

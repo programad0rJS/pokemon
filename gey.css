@@ -1,0 +1,66 @@
+body{
+   font-size: 15px;
+}
+
+.title{
+    background-color: blue;
+    font-family: monospace;
+    font-family: monospace;
+    font-family: fantasy;
+    font-family: cursive;
+    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vmax;
+   font-style: italic;
+    font-weight: 1;
+}   
+
+  
+
+ 
+
+.paragraph{
+    font-size: 12px;
+}
+.paragraph{
+    font-weight: bold;
+}    
+.paragraph{
+    font-weight: normal;
+}
+.paragraph{
+    font-weight: lighter;
+}
+  
+.span{
+    font-size: 2em;
+}
+.title{
+    text-transform: capitalize;
+}
+.paragraph{
+    background-color: red;  
+    text-align: center;
+    text-indent: 30px; 
+}
+.link{
+   background-color:purple;
+    display: block;
+    text-align: justify;
+}
+.link{
+  text-decoration: line-through;
+}
+.box{
+   width: 200px;
+   height: 200px;
+   background: red; 
+   
+}
+.box_item{
+    line-height: center;
+    line-height: 100px;
+}
+.paragraph{
+    letter-spacing: 10px;
+}

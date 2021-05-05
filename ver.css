@@ -1,0 +1,11 @@
+.article{
+ border: 1px solid blue;
+ padding: 5em;  
+ height: 100px;
+ overflow: auto; 
+}
+.article-float  {
+    max-width: 50%;
+    float: right;
+    margin-left: .5em;
+}

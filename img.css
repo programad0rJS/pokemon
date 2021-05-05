@@ -1,0 +1,25 @@
+.table{
+    table-layout: fixed;
+    width: 109%;
+    text-align: center;
+}
+.table{
+    caption-side:top;
+    empty-cells: hide;
+}
+.table,.table_data,.table_head{
+    border: 1px solid blue;
+    border-spacing: 10px;
+}
+.table_data{
+    background: lightblue;
+}
+.table{
+    background-image: url(imagene.jpg.gif);
+}
+.table-container{
+    overflow-x: auto;
+}
+.body{
+    background-color:red;
+}
